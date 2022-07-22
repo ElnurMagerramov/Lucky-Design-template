@@ -1,0 +1,30 @@
+.addToCart:hover{
+    background-color: #106853;
+    color: white !important;
+}
+.office-appliances .card{
+    overflow: hidden;
+}
+
+.card-img-top{
+    transition: 0.5s all ease-in-out;
+}
+.office-appliances .card:hover .card-img-top {
+    transform: scale(1.1);
+}
+.hover-zoom h2:hover,.hover-zoom h4:hover{
+    cursor: pointer;
+    background-color: black;
+    opacity: 0.8;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transition-duration: 0.5s;
+}
+.col-lg-6.hover-zoom:hover{
+    transition-duration: 0.5s;
+    background-size: 120% 120% !important; 
+}
+.tab-menus>li:hover .tab-menus>li>ul{
+    display: block !important;
+}

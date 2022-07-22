@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    background-color: #FC8410;
+    background-image: url("../img/images/pattern/leaf-header-1.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.office-appliances{
+    background-color: #F8F8F8;
+    background-image: url("../img/images/pattern/leaf-office-left-1.png"), url("../img/images/pattern/leaf-office-right-1.png");
+    background-repeat: no-repeat;
+    background-position: left, right;
+}
+.my-line{
+    height: 6px;
+    width: 30px;
+}
+.sections{
+    background-color: #FC8410;
+    background-image: url("../img/images/pattern/leaf-category-left-1.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+footer{
+    background-color: #F8F8F8;
+}
+.orange{
+    background-color: #FC8410 !important;
+    border-color: #FC8410 !important;
+}
+.about-header{
+    background-image: url("../img/images/pattern/leaf-title.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+header input::placeholder{
+    color: white !important;
+} 
+
+.transform-90deg{
+    transform: rotate(90deg) !important;
+    -webkit-transform: rotate(90deg) !important;
+}
+.active{
+    display: block;
+}
+@media only screen and (min-width: 990px) {
+    .qida-part2{
+        position: relative;
+        bottom: 60px;
+    }
+}
+.tab-menus>li:hover ul{
+    display: flex !important;
+    flex-direction: column;
+    /* column-gap: 20%; */
+    /* flex-grow: 4 !important; */
+    width: 250% !important;
+    left: 100%;
+    top: 0;
+    height: 100%;
+}
+.elaqe input{
+    height: 55px;
+}
+.elaqe input:focus{
+    height: 40px;
+    padding-top: 38px;
+    padding-bottom: 15px;
+}
+.elaqe textarea:focus{
+    padding-top: 25px !important;
+}
+.elaqe input:focus::placeholder, .elaqe textarea:focus::placeholder{
+    color: black;
+    position: relative;
+    bottom: 25px;
+    display:block !important;
+    opacity: 1 !important; 
+}
+/* label{
+    color: ;
+} */
+.elaqe label{
+    position: relative;
+    top: 48px;
+    left: 13px;
+    color: transparent;
+}
+input{
+    outline: none;
+}
